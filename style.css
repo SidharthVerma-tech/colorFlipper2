@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 300px;
+}
+.container h1{
+    background-color: rgb(142, 204, 173);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    color: darkgreen;
+    font-family: 'Spline Sans', sans-serif;
+    width: 500px;
+}
+.btn{
+    padding: 18px;
+    font-size: 18px;
+    margin: 18px;
+    border: none;
+    outline: none;
+    background-color: paleturquoise;
+}
+.btn:hover{
+    background-color: powderblue;
+   
+}
